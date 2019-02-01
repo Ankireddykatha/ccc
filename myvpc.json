@@ -1,0 +1,19 @@
+{
+"AWSTemplateformatversion" :"2010-09-09",
+ "Resorces":{
+     "myvp2":{
+         "type":"AWS::EC2::VPC",
+         "properties" : "10.10.1.0/16",
+         "tags" :[{
+             "name":"my",
+             "value":"myvpcnew"
+         
+             }]
+
+                }
+          }
+}
+
+{
+    
+}
